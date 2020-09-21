@@ -1,8 +1,9 @@
 import React from "react"
+import "./components/Header.css"
 
 function Header(){
     return (
-        <header> This is header of page</header>
+        <header className="navbar"> This is header of page</header>
     )
 }
 
