@@ -20,7 +20,7 @@ function App() {
             <Header/>
             <MainContent/>
             <Footer/>
-            <p> Good {timeOfDay}!</p>
+            <h1 style={{color: "#FF8C00"}}> Good {timeOfDay}!</h1>
             <p>It is currently about {date.getHours() % 12} o'clock!</p>
         </div>
     )
